@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.counter {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    overflow: hidden;
+}
+
+.sortform {
+    margin-left: 15%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.napr,
+.pole {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.pole,
+.napr {
+    width: 48%;
+}
+
+form {
+    margin-top: 5%;
+}
+
+.sortform input,
+.napr input {
+    margin-right: 5px;
+}
+
+.sortform b,
+.napr b {
+    margin-left: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%; /* Adjust for padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city {
+    width: calc(33.33% - 20px); /* Adjust for margin */
+    /* margin: 10px; */
+    border: 1px solid gray;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.city:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.city h2 {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.city ul {
+    padding: 10px;
+}
+
+.btn-danger {
+    width: 100%;
+    background-color: #f44336;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #d32f2f;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+
+
+
+.city {
+    width: calc(33.33% - 20px); /* Adjust for margin */
+    margin: 8px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: inline-block; /* Добавьте этот стиль */
+    box-sizing: border-box; /* Добавьте этот стиль */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавьте этот стиль */
+    box-sizing: border-box; /* Добавьте этот стиль */
+}
+
+.city:nth-child(3n + 1) {
+    clear: left;
+}
+
+.city:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.city h2 {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.city ul {
+    padding: 10px;
+}
+
+.btn-danger {
+    width: 100%;
+    background-color: #f44336;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #d32f2f;
+}
+
+form {
+    margin-bottom: 20px;
+}

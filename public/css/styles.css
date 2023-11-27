@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.sortform {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pole,
+.napr {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #555;
+}
+
+span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+.my-custom-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  .my-custom-button:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+
+
+
+  /* ---------------------------------- */
+  
